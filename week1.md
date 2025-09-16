@@ -3,6 +3,7 @@
 ## W1D1 — Repos, build system, dev stack up
 
 ### 1) Initialize monorepo
+
 **Description (what & why):** Create a single repository that houses both frontend (Next.js) and backend (Django) so you can share tooling, CI, and docs. Monorepo simplifies dependency management and atomic PRs across FE/BE.  
 **How:** Root `package.json` with PNPM workspaces; `apps/` for projects.
 **Do:** `git init && pnpm init -w`; add workspaces to package.json.  
